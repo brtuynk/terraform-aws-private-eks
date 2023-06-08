@@ -6,5 +6,5 @@
         terraform plan
         terraform apply
 
-![alt text](https://github.com/gokhanwell/Terraform-VPC-EKS-BastionHost/blob/main/Terraform-VPC-EKS-Bastion.png)
+![alt text](https://github.com/brtuynk/terraform-aws-private-eks/blob/main/Terraform-VPC-EKS-Bastion.png)
 # terraform-aws-private-eks
