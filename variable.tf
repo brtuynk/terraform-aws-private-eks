@@ -67,7 +67,7 @@ variable "min_size" {
 }
 
 variable "cluster_name" {
-  default = "covenlabs-stage"
+  default = "xxxx"
 }
 
 variable "cluster_instance_types" {
