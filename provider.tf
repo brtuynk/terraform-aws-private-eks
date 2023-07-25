@@ -5,8 +5,8 @@ terraform {
     bucket = "covenlabs-stage-tf"
     key    = "env/stage/tf-remote-backend.tfstate"
     region = "eu-central-1"
-    access_key = "AKIAZ3E242FNZ2CBM54L"
-    secret_key = "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"
+    access_key = "${var.access_key}"
+    secret_key = "${var.secret_key}"
   }
   required_providers {
     aws = {
