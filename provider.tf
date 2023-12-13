@@ -2,7 +2,7 @@ terraform {
   required_version = "~> 1.0"
   
   backend "s3" {
-    bucket = "covenlabs-stage-tf"
+    bucket = var.bucket_name
     key    = "env/stage/tf-remote-backend.tfstate"
     region = "eu-central-1"
     access_key = "${var.access_key}"

@@ -73,3 +73,7 @@ variable "cluster_name" {
 variable "cluster_instance_types" {
   default = "t3.large"
 }
+
+variable "bucket_name" {
+  default = "xxxxx"
+}
